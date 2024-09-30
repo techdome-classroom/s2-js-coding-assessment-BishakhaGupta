@@ -15,7 +15,7 @@ var isValid = function(s) {
             
             stack.push(map[char]);
         } else {
-            // If it's a closing bracket, check if it matches the last opened one
+            
             if (stack.pop() !== char) {
                 return false;
             }
