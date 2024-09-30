@@ -27,6 +27,6 @@ var romanToInt = function(s) {
 };
 
 // Test cases
-console.log(romanToInt("III"));       // Output: 3
+console.log(romanToInt("III"));       
 console.log(romanToInt("LVIII"));     
 console.log(romanToInt("MCMXCIV"));   
