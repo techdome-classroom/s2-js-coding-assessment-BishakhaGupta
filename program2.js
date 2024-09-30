@@ -1,7 +1,3 @@
-/**
- * @param {string} s
- * @return {number}
- */
 var romanToInt = function(s) {
     const romanMap = {
         'I': 1,
@@ -30,8 +26,7 @@ var romanToInt = function(s) {
     return total;
 };
 
-console.log(romanToInt("III"));      
-console.log(romanToInt("LVIII"));    
-console.log(romanToInt("MCMXCIV"));  
-
-module.exports = { romanToInt };
+// Test cases
+console.log(romanToInt("III"));       // Output: 3
+console.log(romanToInt("LVIII"));     // Output: 58
+console.log(romanToInt("MCMXCIV"));   // Output: 1994
