@@ -13,7 +13,7 @@ var isValid = function(s) {
     for (const char of s) {
         if (map[char]) {
             // If it's an opening bracket, push the corresponding closing bracket onto the stack
-            stack.push(char); // Push the opening bracket instead of the closing one
+            stack.push(char); 
         } else {
             
             if (stack.length === 0 || map[stack.pop()] !== char) {
